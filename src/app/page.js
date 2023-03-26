@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google';
-import Results from './components/Results';
+import Results from '../components/Results';
 
 const inter = Inter({ subsets: ['latin'] });
 const API_KEY = process.env.API_KEY;
